@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Satisfy&display=swap');
+*{
+  background-color: #C5C6D0;
+  font-family: 'Satisfy', cursive;
+  box-sizing: border-box;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.title{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+}
+.name {
+  font-size: 20px;
+  font-style: italic;
+}
+.first,.third,.fifth{
+  padding: 1em;
+  background-color: #ADADC9;
+}
+
+.second, .fourth{
+  padding: 1em;
+  border-color: #3E3D53;
+  border-style: groove;
+  border-width: medium;
+
+}
+
+.second,.fourth>.fav{
+  padding: 1em;
+  background-color: #655967;
+}
